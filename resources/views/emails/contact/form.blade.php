@@ -6,7 +6,7 @@
 <br>
 <strong>Birthdate:</strong> {{ $data['birthdate'] }}
 <br>
-<strong>Hourly Rate:</strong> {{ $data['rate'] }}
+<strong>Hourly Rate:</strong> ${{ $data['rate'] }}/hour
 <br>
 <strong>Phone Number:</strong> {{ $data['phone'] }}
 <br>
