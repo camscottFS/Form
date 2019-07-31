@@ -59,7 +59,7 @@
                     <h5 class="card-title">Availability</h5>
                     <div class="form-group">
                       <label for="sundaystart">Sunday Start</label>
-                      <select class="form-control" id="sundaystart" name="sundaystart" value="sundaystart">
+                      <select class="form-control @error('sundaystart') is-invalid @enderror" id="sundaystart" name="sundaystart" value="sundaystart">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="form-group">
                       <label for="sundayEnd">Sunday End</label>
-                      <select class="form-control" id="sundayend" name="sundayend" value="sundayend">
+                      <select class="form-control @error('sundayend') is-invalid @enderror" id="sundayend" name="sundayend" value="sundayend">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="form-group">
                       <label for="mondayStart">Monday Start</label>
-                      <select class="form-control" id="mondaystart" name="mondaystart" value="mondaystart">
+                      <select class="form-control @error('mondaystart') is-invalid @enderror" id="mondaystart" name="mondaystart" value="mondaystart">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -147,7 +147,7 @@
                     </div>
                     <div class="form-group">
                       <label for="mondayEnd">Monday End</label>
-                      <select class="form-control" id="mondayend" name="mondayend" value="mondayend">
+                      <select class="form-control @error('mondayend') is-invalid @enderror" id="mondayend" name="mondayend" value="mondayend">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -183,7 +183,7 @@
                     </div>
                     <div class="form-group">
                       <label for="tuesdayStart">Tuesday Start</label>
-                      <select class="form-control" id="tuesdaystart" name="tuesdaystart" value="tuesdaystart">
+                      <select class="form-control @error('tuesdaystart') is-invalid @enderror" id="tuesdaystart" name="tuesdaystart" value="tuesdaystart">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -209,7 +209,7 @@
                     </div>
                     <div class="form-group">
                       <label for="tuesdayEnd">Tuesday End</label>
-                      <select class="form-control" id="tuesdayend" name="tuesdayend" value="tuesdayend">
+                      <select class="form-control @error('tuesdayend') is-invalid @enderror" id="tuesdayend" name="tuesdayend" value="tuesdayend">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -245,7 +245,7 @@
                     </div>
                     <div class="form-group">
                       <label for="wednesdayStart">Wednesday Start</label>
-                      <select class="form-control" id="wednesdaystart" name="wednesdaystart" value="wednesdaystart">
+                      <select class="form-control @error('wednesdaystart') is-invalid @enderror" id="wednesdaystart" name="wednesdaystart" value="wednesdaystart">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -271,7 +271,7 @@
                     </div>
                     <div class="form-group">
                       <label for="wednesdayEnd">Wednesday End</label>
-                      <select class="form-control" id="wednesdayend" name="wednesdayend" value="wednesdayend">
+                      <select class="form-control @error('wednesdayend') is-invalid @enderror" id="wednesdayend" name="wednesdayend" value="wednesdayend">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -307,7 +307,7 @@
                     </div>
                     <div class="form-group">
                       <label for="thursdayStart">Thursday Start</label>
-                      <select class="form-control" id="thursdaystart" name="thursdaystart" value="thursdaystart">
+                      <select class="form-control @error('thursdaystart') is-invalid @enderror" id="thursdaystart" name="thursdaystart" value="thursdaystart">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -333,7 +333,7 @@
                     </div>
                     <div class="form-group">
                       <label for="thursdayEnd">Thursday End</label>
-                      <select class="form-control" id="thursdayend" name="thursdayend" value="thursdayend">
+                      <select class="form-control @error('thursdayend') is-invalid @enderror" id="thursdayend" name="thursdayend" value="thursdayend">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -369,7 +369,7 @@
                     </div>
                     <div class="form-group">
                       <label for="fridayStart">Friday Start</label>
-                      <select class="form-control" id="fridaystart" name="fridaystart" value="fridaystart">
+                      <select class="form-control @error('fridaystart') is-invalid @enderror" id="fridaystart" name="fridaystart" value="fridaystart">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -395,7 +395,7 @@
                     </div>
                     <div class="form-group">
                       <label for="fridayEnd">Friday End</label>
-                      <select class="form-control" id="fridayend" name="fridayend" value="fridayend">
+                      <select class="form-control @error('fridayend') is-invalid @enderror" id="fridayend" name="fridayend" value="fridayend">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -431,7 +431,7 @@
                     </div>
                     <div class="form-group">
                       <label for="saturdayStart">Saturday Start</label>
-                      <select class="form-control" id="saturdaystart" name="saturdaystart" value="saturdaystart">
+                      <select class="form-control @error('saturdaystart') is-invalid @enderror" id="saturdaystart" name="saturdaystart" value="saturdaystart">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -457,7 +457,7 @@
                     </div>
                     <div class="form-group">
                       <label for="saturdayend">Saturday End</label>
-                      <select class="form-control" id="saturdayend" name="saturdayend" value="saturdayend">
+                      <select class="form-control @error('saturdayend') is-invalid @enderror" id="saturdayend" name="saturdayend" value="saturdayend">
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
