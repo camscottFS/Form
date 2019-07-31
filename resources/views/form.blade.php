@@ -56,7 +56,7 @@
                     <h5 class="card-title">Availability</h5>
                     <div class="form-group">
                       <label for="sundayStart">Sunday Start</label>
-                      <select required class="form-control @error('sundaystart') is-invalid @enderror" id="sundaystart" name="sundaystart" value="{{ old('sundaystart') }}" autocomplete="sundaystart" autofocus>
+                      <select class="form-control @error('sundaystart') is-invalid @enderror" id="sundaystart" name="sundaystart" value="{{ old('sundaystart') }}" autocomplete="sundaystart" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -82,7 +82,7 @@
                     </div>
                     <div class="form-group">
                       <label for="sundayEnd">Sunday End</label>
-                      <select required class="form-control @error('sundayend') is-invalid @enderror" id="sundayend" name="sundaystart" value="{{ old('sundayend') }}" autocomplete="sundayend" autofocus>
+                      <select class="form-control @error('sundayend') is-invalid @enderror" id="sundayend" name="sundaystart" value="{{ old('sundayend') }}" autocomplete="sundayend" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="form-group">
                       <label for="mondayStart">Monday Start</label>
-                      <select required class="form-control @error('mondaystart') is-invalid @enderror" id="mondaystart" name="mondaystart" value="{{ old('mondaystart') }}" autocomplete="mondaystart" autofocus>
+                      <select class="form-control @error('mondaystart') is-invalid @enderror" id="mondaystart" name="mondaystart" value="{{ old('mondaystart') }}" autocomplete="mondaystart" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -144,7 +144,7 @@
                     </div>
                     <div class="form-group">
                       <label for="mondayEnd">Monday End</label>
-                      <select required class="form-control @error('mondayend') is-invalid @enderror" id="mondayend" name="mondayend" value="{{ old('mondayend') }}" autocomplete="mondayend" autofocus>
+                      <select class="form-control @error('mondayend') is-invalid @enderror" id="mondayend" name="mondayend" value="{{ old('mondayend') }}" autocomplete="mondayend" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -180,7 +180,7 @@
                     </div>
                     <div class="form-group">
                       <label for="tuesdayStart">Tuesday Start</label>
-                      <select required class="form-control @error('tuesdaystart') is-invalid @enderror" id="tuesdaystart" name="tuesdaystart" value="{{ old('tuesdaystart') }}" autocomplete="tuesdaystart" autofocus>
+                      <select class="form-control @error('tuesdaystart') is-invalid @enderror" id="tuesdaystart" name="tuesdaystart" value="{{ old('tuesdaystart') }}" autocomplete="tuesdaystart" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -206,7 +206,7 @@
                     </div>
                     <div class="form-group">
                       <label for="tuesdayEnd">Tuesday End</label>
-                      <select required class="form-control @error('tuesdayend') is-invalid @enderror" id="tuesdayend" name="tuesdayend" value="{{ old('tuesdayend') }}" autocomplete="tuesdayend" autofocus>
+                      <select class="form-control @error('tuesdayend') is-invalid @enderror" id="tuesdayend" name="tuesdayend" value="{{ old('tuesdayend') }}" autocomplete="tuesdayend" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -242,7 +242,7 @@
                     </div>
                     <div class="form-group">
                       <label for="wednesdayStart">Wednesday Start</label>
-                      <select required class="form-control @error('wednesdaystart') is-invalid @enderror" id="wednesdaystart" name="wednesdaystart" value="{{ old('wednesdayend') }}" autocomplete="wednesdaystart" autofocus>
+                      <select class="form-control @error('wednesdaystart') is-invalid @enderror" id="wednesdaystart" name="wednesdaystart" value="{{ old('wednesdayend') }}" autocomplete="wednesdaystart" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="form-group">
                       <label for="wednesdayEnd">Wednesday End</label>
-                      <select required class="form-control @error('wednesdayend') is-invalid @enderror" id="wednesdayend" name="wednesdayend" value="{{ old('wednesdayend') }}" autocomplete="wednesdayend" autofocus>
+                      <select class="form-control @error('wednesdayend') is-invalid @enderror" id="wednesdayend" name="wednesdayend" value="{{ old('wednesdayend') }}" autocomplete="wednesdayend" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -304,7 +304,7 @@
                     </div>
                     <div class="form-group">
                       <label for="thursdayStart">Thursday Start</label>
-                      <select required class="form-control @error('thursdaystart') is-invalid @enderror" id="thursdaystart" name="thursdaystart" value="{{ old('thursdaystart') }}" autocomplete="thursdaystart" autofocus>
+                      <select class="form-control @error('thursdaystart') is-invalid @enderror" id="thursdaystart" name="thursdaystart" value="{{ old('thursdaystart') }}" autocomplete="thursdaystart" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -330,7 +330,7 @@
                     </div>
                     <div class="form-group">
                       <label for="thursdayEnd">Thursday End</label>
-                      <select required class="form-control @error('thursdayend') is-invalid @enderror" id="thursdayend" name="thursdayend" value="{{ old('thursdayend') }}" autocomplete="thursdayend" autofocus>
+                      <select class="form-control @error('thursdayend') is-invalid @enderror" id="thursdayend" name="thursdayend" value="{{ old('thursdayend') }}" autocomplete="thursdayend" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -366,7 +366,7 @@
                     </div>
                     <div class="form-group">
                       <label for="fridayStart">Friday Start</label>
-                      <select required class="form-control @error('fridaystart') is-invalid @enderror" id="fridaystart" name="fridaystart" value="{{ old('fridaystart') }}" autocomplete="fridaystart" autofocus>
+                      <select class="form-control @error('fridaystart') is-invalid @enderror" id="fridaystart" name="fridaystart" value="{{ old('fridaystart') }}" autocomplete="fridaystart" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -392,7 +392,7 @@
                     </div>
                     <div class="form-group">
                       <label for="fridayEnd">Friday End</label>
-                      <select required class="form-control @error('fridayend') is-invalid @enderror" id="fridayend" name="fridayend" value="{{ old('fridayend') }}" autocomplete="fridayend" autofocus>
+                      <select class="form-control @error('fridayend') is-invalid @enderror" id="fridayend" name="fridayend" value="{{ old('fridayend') }}" autocomplete="fridayend" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -428,7 +428,7 @@
                     </div>
                     <div class="form-group">
                       <label for="saturdayStart">Saturday Start</label>
-                      <select required class="form-control @error('saturdaystart') is-invalid @enderror" id="saturdaystart" name="saturdaystart" value="{{ old('saturdaystart') }}" autocomplete="saturdaystart" autofocus>
+                      <select class="form-control @error('saturdaystart') is-invalid @enderror" id="saturdaystart" name="saturdaystart" value="{{ old('saturdaystart') }}" autocomplete="saturdaystart" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -454,7 +454,7 @@
                     </div>
                     <div class="form-group">
                       <label for="saturdayend">Saturday End</label>
-                      <select required class="form-control @error('saturdayend') is-invalid @enderror" id="saturdayend" name="saturdayend" value="{{ old('saturdayend') }}" autocomplete="saturdayend" autofocus>
+                      <select class="form-control @error('saturdayend') is-invalid @enderror" id="saturdayend" name="saturdayend" value="{{ old('saturdayend') }}" autocomplete="saturdayend" autofocus>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>

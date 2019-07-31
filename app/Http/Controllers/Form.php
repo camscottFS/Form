@@ -2,35 +2,29 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\FormMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class Form extends Controller
 {
   public function index(Request $request)
   {
-    dd(request()->all());
+    // verify data received
+    //dd(request()->all());
+
+    // validate the data
     $data = request()->validate([
       'name' => 'required',
       'birthdate' => 'required|date',
       'rate' => 'required|numeric',
-      'sundaystart' => 'required',
-      'sundayend' => 'required',
-      'mondaystart' => 'required',
-      'mondayend' => 'required',
-      'tuesdaystart' => 'required',
-      'tuesdayend' => 'required',
-      'wednesdaystart' => 'required',
-      'wednesdayend' => 'required',
-      'thursdaystart' => 'required',
-      'thursdayend' => 'required',
-      'fridaystart' => 'required',
-      'fridayend' => 'required',
-      'saturdaystart' => 'required',
-      'saturdayend' => 'required',
-      'phone' => 'required|regex:/(01)[0-9]{9}/',
+      'phone' => 'required',
       'email' => 'required|email',
     ]);
 
+    Mail::to('cameron@camscott.me')->send(new FormMail());
+
+    // return success view
     return view('success.index');
   }
 }
