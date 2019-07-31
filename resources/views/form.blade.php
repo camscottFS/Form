@@ -60,6 +60,7 @@
                     <div class="form-group">
                       <label for="sundaystart">Sunday Start</label>
                       <select class="form-control @error('sundaystart') is-invalid @enderror" id="sundaystart" name="sundaystart" value="sundaystart">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -86,6 +87,7 @@
                     <div class="form-group">
                       <label for="sundayEnd">Sunday End</label>
                       <select class="form-control @error('sundayend') is-invalid @enderror" id="sundayend" name="sundayend" value="sundayend">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -122,6 +124,7 @@
                     <div class="form-group">
                       <label for="mondayStart">Monday Start</label>
                       <select class="form-control @error('mondaystart') is-invalid @enderror" id="mondaystart" name="mondaystart" value="mondaystart">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -148,6 +151,7 @@
                     <div class="form-group">
                       <label for="mondayEnd">Monday End</label>
                       <select class="form-control @error('mondayend') is-invalid @enderror" id="mondayend" name="mondayend" value="mondayend">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -184,6 +188,7 @@
                     <div class="form-group">
                       <label for="tuesdayStart">Tuesday Start</label>
                       <select class="form-control @error('tuesdaystart') is-invalid @enderror" id="tuesdaystart" name="tuesdaystart" value="tuesdaystart">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -210,6 +215,7 @@
                     <div class="form-group">
                       <label for="tuesdayEnd">Tuesday End</label>
                       <select class="form-control @error('tuesdayend') is-invalid @enderror" id="tuesdayend" name="tuesdayend" value="tuesdayend">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -246,6 +252,7 @@
                     <div class="form-group">
                       <label for="wednesdayStart">Wednesday Start</label>
                       <select class="form-control @error('wednesdaystart') is-invalid @enderror" id="wednesdaystart" name="wednesdaystart" value="wednesdaystart">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -272,6 +279,7 @@
                     <div class="form-group">
                       <label for="wednesdayEnd">Wednesday End</label>
                       <select class="form-control @error('wednesdayend') is-invalid @enderror" id="wednesdayend" name="wednesdayend" value="wednesdayend">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -308,6 +316,7 @@
                     <div class="form-group">
                       <label for="thursdayStart">Thursday Start</label>
                       <select class="form-control @error('thursdaystart') is-invalid @enderror" id="thursdaystart" name="thursdaystart" value="thursdaystart">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -334,6 +343,7 @@
                     <div class="form-group">
                       <label for="thursdayEnd">Thursday End</label>
                       <select class="form-control @error('thursdayend') is-invalid @enderror" id="thursdayend" name="thursdayend" value="thursdayend">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -370,6 +380,7 @@
                     <div class="form-group">
                       <label for="fridayStart">Friday Start</label>
                       <select class="form-control @error('fridaystart') is-invalid @enderror" id="fridaystart" name="fridaystart" value="fridaystart">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -396,6 +407,7 @@
                     <div class="form-group">
                       <label for="fridayEnd">Friday End</label>
                       <select class="form-control @error('fridayend') is-invalid @enderror" id="fridayend" name="fridayend" value="fridayend">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -432,6 +444,7 @@
                     <div class="form-group">
                       <label for="saturdayStart">Saturday Start</label>
                       <select class="form-control @error('saturdaystart') is-invalid @enderror" id="saturdaystart" name="saturdaystart" value="saturdaystart">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
@@ -458,6 +471,7 @@
                     <div class="form-group">
                       <label for="saturdayend">Saturday End</label>
                       <select class="form-control @error('saturdayend') is-invalid @enderror" id="saturdayend" name="saturdayend" value="saturdayend">
+                        <option disabled selected value> -- Select a time -- </option>
                         <option>Any</option>
                         <option>None</option>
                         <option>12:00 (Midnight)</option>
