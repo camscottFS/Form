@@ -10,10 +10,10 @@ class Form extends Controller
   {
     $data = request()->validate([
       'name' => 'required',
-      'birthdate' => 'required',
+      'birthdate' => 'required|date',
       'rate' => 'required',
       'availability' => 'required',
-      'phone' => 'required|phone',
+      'phone' => 'required',
       'email' => 'required|email'
     ]);
   }
