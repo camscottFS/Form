@@ -19,7 +19,7 @@
     <div class="container mt-4">
       <div class="row">
         <div class="col-8 offset-2">
-          <form method="POST" action="">
+          <form method="POST" action="/f" enctype="multipart/form-data">
             @csrf
             <div class="card p-3">
               <div class="card-body">
@@ -78,7 +78,7 @@
                       </span>
                     @enderror
                 </div>
-                  <button type="submit" class="btn btn-primary"></button>
+                  <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </div>
           </form>
