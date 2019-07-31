@@ -20,11 +20,24 @@ class Form extends Controller
       'rate' => 'required|numeric',
       'phone' => 'required',
       'email' => 'required|email',
+      'sundaystart' => 'required',
+      'sundayend' => 'required',
+      'mondaystart' => 'required',
+      'mondayend' => 'required',
+      'tuesdaystart' => 'required',
+      'tuesdayend' => 'required',
+      'wednesdaystart' => 'required',
+      'wednesdayend' => 'required',
+      'thursdaystart' => 'required',
+      'thursdayend' => 'required',
+      'fridaystart' => 'required',
+      'fridayend' => 'required',
+      'saturdaystart' => 'required',
+      'saturdayend' => 'required',
     ]);
 
-    Mail::to('cameron@camscott.me')->send(new FormMail());
+    Mail::to('cameron@camscott.me')->send(new FormMail($data));
 
-    // return success view
-    return view('success.index');
+    return redirect('/')->with('success', 'Message sent successfully!');
   }
 }
