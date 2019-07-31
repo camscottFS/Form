@@ -1,6 +1,7 @@
 # A Form created in Laravel
 
 It validates the user input.
+
 It mails the form content to cameron@camscott.me
 
 Just change .env
